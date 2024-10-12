@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/JonteBoro/JonteBoro.github.io#readme",
   "dependencies": {
-    "phaser": "^3.85.2"
+    "phaser": "^3.86.0"
   }
 }

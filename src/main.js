@@ -1,9 +1,14 @@
 // Phaser Spielkonfiguration
 var config = {
     type: Phaser.AUTO,
-    width: window.innerWidth, // Spielbreite an Bildschirm anpassen
-    height: window.innerHeight, // Spielhöhe an Bildschirm anpassen
-    backgroundColor: '#3498db', // Hintergrundfarbe
+    width: 600, // Spielbreite an Bildschirm anpassen
+    height: 300,
+    scale: {
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+    },
+    autoRound: false,
+    parent: "game-container",backgroundColor: '#3498db', // Hintergrundfarbe
     physics: {
         default: 'arcade', // Aktiviert die Arcade-Physik
         arcade: {
