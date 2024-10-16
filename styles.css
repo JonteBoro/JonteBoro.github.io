@@ -1,0 +1,80 @@
+/* Allgemeine Stile */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffeef2;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Header */
+header {
+    background-color: #ffccdf;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #ff5a82;
+    margin: 0;
+}
+
+/* Main Content */
+main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+article h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #ff5a82;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #ffccdf;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 2px solid #ff5a82;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Mobile Friendly */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    article h2 {
+        font-size: 1.5rem;
+    }
+
+    article p {
+        font-size: 1rem;
+    }
+}
